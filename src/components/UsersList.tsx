@@ -16,7 +16,7 @@ interface UsersListProps {
 
 const UsersList = ({ selectedUser, onSelectUser, onError }: UsersListProps) => {
   const { users, searchTerm, status } = useSelector((state: RootState) => state.users)
-  const [getUserDetails, { isLoading: isLoadingUserDetails }] = useGetUserDetailsMutation()
+  const [getUserDetails] = useGetUserDetailsMutation()
 
   const handleSelectUser = async (user: User) => {
     if (selectedUser?.login === user.login) {
