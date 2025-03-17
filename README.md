@@ -4,6 +4,10 @@ A modern web application that allows users to search for GitHub users and explor
 
 ![GitHub Repositories Explorer](https://res.cloudinary.com/aldyazarya/image/upload/v1742226825/Screenshot_2025-03-17_at_22.43.50_dar2vn.png)
 
+
+## Live Preview
+`https://github-repositories-explorer-coral.vercel.app/`
+
 ## Features
 
 - Search for GitHub users by username
@@ -41,7 +45,7 @@ A modern web application that allows users to search for GitHub users and explor
    npm install
 3. Start the development server:
    ```bash
-   npm install
+   npm run dev
 4. Open your browser and navigate to `http://localhost:5173`
 
 ## Usage
